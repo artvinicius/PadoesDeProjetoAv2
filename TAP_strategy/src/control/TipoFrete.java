@@ -1,20 +1,20 @@
 package control;
 
-import model.Normal;
-import model.Sedex;
+import model.Simples;
+import model.Express;
 
 public enum TipoFrete {
 
 	NORMAL {
 		@Override
 		public Frete obterFrete() {
-			return new Normal();
+			return new Simples();
 		}
 	},
 	SEDEX {
 		@Override
 		public Frete obterFrete() {
-			return new Sedex();
+			return new Express();
 		}
 	};
 
