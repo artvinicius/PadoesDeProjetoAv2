@@ -9,12 +9,15 @@ public class Application {
 	private Moveis naoPlanejados;
 	
 	public Application(MoveisFactory factory) {
-		planejados = (Moveis) factory.moveisPlanejados();
-		naoPlanejados = (Moveis) factory.moveisNaoPlanejados();
+		planejados = factory.moveisPlanejados();
+		naoPlanejados = factory.moveisNaoPlanejados();
 	}
 	
-	public void print() {
+	public void printPlanejados() {
 		planejados.print();
+	}
+	
+	public void printNaoPlanejados() {
 		naoPlanejados.print();
 	}
 
