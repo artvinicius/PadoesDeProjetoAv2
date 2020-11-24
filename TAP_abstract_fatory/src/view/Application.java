@@ -14,11 +14,11 @@ public class Application {
 	}
 	
 	public void printPlanejados() {
-		planejados.print();
+		planejados.exibir();
 	}
 	
 	public void printNaoPlanejados() {
-		naoPlanejados.print();
+		naoPlanejados.exibir();
 	}
 
 }
