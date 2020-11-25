@@ -3,8 +3,9 @@
 ### Disciplina: Programação Avançada 
 #### Professor: Fausto José 
 
-
-* Aline Moura
-* Arthur Vinícius 
-* Lucas Eduardo 
-* Philipe Brito
+| Padrão  | Aluno |
+|---- | ---- |
+| Strategy| Arthur Vinícius|
+| Observe| Philipe Brito|
+| Adapter| Aline Moura| 
+| Abstract Factory | Lucas Eduardo| 
